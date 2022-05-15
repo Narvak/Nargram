@@ -1,0 +1,167 @@
+html {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background: white;
+    color: #1a1a1a;
+}
+
+#header, #footer {
+    background: rgba(211, 211, 211, 0.111);
+    color: #1a1a1a;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+    /* px-4;
+    py-5;
+    sm:grid;
+    sm:grid-cols-3;
+    sm:gap-4;
+    sm:px-6; */
+}
+nav {
+    background: transparent;
+    color: #1a1a1a;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+    nav .a {
+        background: transparent;
+        color: #1a1a1a;
+        width: 144px;
+        height: 34px;
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+    }
+        nav .a:hover {
+            background: #1a1a1a;
+            color: whitesmoke;
+        }
+    .a_left_right_header {
+        border-radius: 0 10px 10px 0;
+    }
+    .a_right_left_header {
+        border-radius: 10px 0 0 10px;
+    }
+    .download {
+        background: blue;
+        color: white;
+        width: 144px;
+        height: 34px;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+        .download:hover {
+            background: blueviolet;
+            color: whitesmoke;
+            width: 144px;
+            height: 34px;
+            float: right;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px;
+            padding: 5px;
+        }
+
+p, tr {
+    background: transparent;
+    color: #1a1a1a;
+    font-size: 12pt;
+}
+
+h1 {
+    background: transparent;
+    color: #1a1a1a;
+    font-size: 20pt;
+}
+
+#about_nargram {
+    width: 100%;
+    height: 100%;
+}
+
+#inscription_nargram {
+    background: transparent;
+    color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+    #inscription_nargram h1, p {
+        text-align: justify;
+        margin: 5px;
+        padding: 5px;
+    }
+    #inscription_nargram button {
+        background: blue;
+        color: white;
+        width: 144px;
+        height: 55px;
+        border: transparent;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 5px;
+    }
+        #inscription_nargram button:hover {
+            background: blueviolet;
+            color: whitesmoke;
+            width: 144px;
+            height: 55px;
+        }
+
+#visual_nargram {
+    background: rgba(211, 211, 211, 0.111);
+    color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+table, tr {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+.table_tr_gray {
+    background: rgba(211, 211, 211, 0.111);
+    color: #1a1a1a;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.table_tr_white {
+    background: white;
+    color: #1a1a1a;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*
+rgba(211, 211, 211, 0.111)
+#1a1a1a
+    margin: 5px;
+    padding: 5px;
+*/
